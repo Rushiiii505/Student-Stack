@@ -27,7 +27,7 @@ export default function Home() {
             setPerks(data);
           }
         }
-      } catch (err) {
+      } catch {
         console.warn("API route fallback active.");
       }
     }

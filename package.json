@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape": "node scripts/scraper.js"
   },
   "dependencies": {
     "@react-three/fiber": "^9.6.1",

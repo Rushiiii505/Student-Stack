@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { motion, useInView, useSpring, useTransform } from "framer-motion";
 
 interface CountUpProps {
@@ -14,7 +14,7 @@ interface CountUpProps {
 export function CountUp({ end, duration = 2, prefix = "", suffix = "", className = "" }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: "-50px" });
-  const [hasAnimated, setHasAnimated] = useState(false);
+  const hasAnimatedRef = useRef(false);
 
   const springValue = useSpring(0, {
     duration: duration * 1000,
@@ -27,11 +27,11 @@ export function CountUp({ end, duration = 2, prefix = "", suffix = "", className
   });
 
   useEffect(() => {
-    if (inView && !hasAnimated) {
+    if (inView && !hasAnimatedRef.current) {
+      hasAnimatedRef.current = true;
       springValue.set(end);
-      setHasAnimated(true);
     }
-  }, [inView, end, springValue, hasAnimated]);
+  }, [inView, end, springValue]);
 
   return (
     <span ref={ref} className={className}>
