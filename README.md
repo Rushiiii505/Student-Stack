@@ -28,6 +28,7 @@ The platform is engineered to deliver a blazing-fast, ultra-premium user experie
 ## 🚀 Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/)
+- <!-- pull shark check 2 -->
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **3D / WebGL**: [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) & [Three.js](https://threejs.org/)
