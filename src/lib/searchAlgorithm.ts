@@ -73,7 +73,7 @@ export function advancedSearchAndRankPerks(
   const queryTokens = normalizedQuery.split(/\s+/).filter(Boolean);
 
   // 1. Filter by category
-  let filtered = perks.filter((perk) => {
+  const filtered = perks.filter((perk) => {
     if (category === "All" || !category) return true;
     return perk.category.toLowerCase() === category.toLowerCase();
   });

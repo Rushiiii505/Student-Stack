@@ -1,7 +1,4 @@
-"use client";
-
-/* eslint-disable react/no-unknown-property */
-import { useRef, useEffect, forwardRef, useState } from 'react';
+import { useRef, useEffect, forwardRef, useState, useMemo } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { EffectComposer, wrapEffect } from '@react-three/postprocessing';
 import { Effect } from 'postprocessing';
@@ -223,7 +220,7 @@ function DitheredWaves({
 
   const prevColor = useRef([...waveColor]);
   
-  useFrame((state, delta) => {
+  useFrame((state) => {
     if (!materialRef.current) return;
     const u = materialRef.current.uniforms;
 
@@ -248,6 +245,9 @@ function DitheredWaves({
     }
   });
 
+  // eslint-disable-next-line react-hooks/refs
+  const waveUniforms = useMemo(() => waveUniformsRef.current, []);
+
   return (
     <>
       <mesh ref={mesh} scale={[viewport.width, viewport.height, 1]}>
@@ -256,7 +256,7 @@ function DitheredWaves({
           ref={materialRef}
           vertexShader={waveVertexShader}
           fragmentShader={waveFragmentShader}
-          uniforms={waveUniformsRef.current}
+          uniforms={waveUniforms}
         />
       </mesh>
 
@@ -281,6 +281,7 @@ export default function Dither({
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
