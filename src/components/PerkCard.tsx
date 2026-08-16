@@ -13,6 +13,7 @@ export interface PerkProps {
   logo_url: string;
   last_verified_date?: string;
   isRecentlyVerified?: boolean;
+  status?: string;
 }
 
 export function PerkCard({ perk }: { perk: PerkProps }) {

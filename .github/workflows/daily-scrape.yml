@@ -2,11 +2,12 @@ name: Daily Scrape and Update Perks
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Run daily at midnight UTC
-  workflow_dispatch: # Allow manual trigger from GitHub UI
+    - cron: '0 0 * * *' # Runs daily at 00:00 UTC
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
   scrape-and-update:
+    name: Scrape & Sync Student Perks
     runs-on: ubuntu-latest
 
     permissions:
@@ -15,6 +16,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -25,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run Scraper Script
+      - name: Run Scraper and Verification Engine
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -36,5 +40,11 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/mockPerks.ts
-          git diff-index --quiet HEAD || git commit -m "chore: daily perk update scrape [skip ci]"
-          git push
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "chore: daily perk update scrape [skip ci]"
+            git pull --rebase origin main || true
+            git push origin main
+            echo "✅ Successfully committed and pushed updated perks data!"
+          else
+            echo "ℹ️ No changes detected. Perks dataset is up to date."
+          fi

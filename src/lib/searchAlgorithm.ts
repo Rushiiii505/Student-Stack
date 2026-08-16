@@ -9,6 +9,7 @@ export interface Perk {
   last_verified_date?: string;
   score?: number;
   isRecentlyVerified?: boolean;
+  status?: string;
 }
 
 /**
