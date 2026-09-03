@@ -9,7 +9,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 2000,
     "url": "https://education.github.com/pack",
     "logo_url": "https://cdn.simpleicons.org/github/181717",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -20,7 +20,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 289,
     "url": "https://www.jetbrains.com/community/education/#students",
     "logo_url": "https://cdn.simpleicons.org/jetbrains/000000",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -31,7 +31,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 59,
     "url": "https://www.gitkraken.com/student-resources",
     "logo_url": "https://cdn.simpleicons.org/gitkraken/179287",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -42,7 +42,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 120,
     "url": "https://termius.com/education",
     "logo_url": "https://cdn.simpleicons.org/termius/202634",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -53,7 +53,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 120,
     "url": "https://www.postman.com/student-program/",
     "logo_url": "https://cdn.simpleicons.org/postman/FF6C37",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -64,7 +64,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 84,
     "url": "https://replit.com/site/education",
     "logo_url": "https://cdn.simpleicons.org/replit/F26207",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "flagged"
   },
   {
@@ -75,7 +75,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 69,
     "url": "https://www.git-tower.com/students",
     "logo_url": "https://cdn.simpleicons.org/git/F05032",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -86,7 +86,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 60,
     "url": "https://bootstrapstudio.io/pages/student-license",
     "logo_url": "https://cdn.simpleicons.org/bootstrap/7952B3",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -97,7 +97,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 120,
     "url": "https://github.com/features/copilot",
     "logo_url": "https://cdn.simpleicons.org/githubcopilot/000000",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -108,7 +108,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 1000,
     "url": "https://www.tableau.com/academic/students",
     "logo_url": "https://cdn.simpleicons.org/tableau/E97627",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -119,7 +119,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 150,
     "url": "https://www.datacamp.com/universities",
     "logo_url": "https://cdn.simpleicons.org/datacamp/05192D",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -130,7 +130,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 66,
     "url": "https://www.wolframalpha.com/pro/for-students",
     "logo_url": "https://cdn.simpleicons.org/wolfram/DD1100",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "flagged"
   },
   {
@@ -141,7 +141,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 360,
     "url": "https://wandb.ai/site/education",
     "logo_url": "https://cdn.simpleicons.org/weightsandbiases/FFBE00",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -152,7 +152,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 100,
     "url": "https://azure.microsoft.com/en-us/free/students/",
     "logo_url": "https://cdn.simpleicons.org/microsoftazure/0089D6",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -163,7 +163,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 100,
     "url": "https://aws.amazon.com/education/awseducate/",
     "logo_url": "https://cdn.simpleicons.org/amazonwebservices/FF9900",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -174,7 +174,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 200,
     "url": "https://try.digitalocean.com/developer-cloud/",
     "logo_url": "https://cdn.simpleicons.org/digitalocean/0080FF",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -185,7 +185,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 150,
     "url": "https://www.mongodb.com/students",
     "logo_url": "https://cdn.simpleicons.org/mongodb/47A248",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -196,7 +196,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 156,
     "url": "https://www.heroku.com/students",
     "logo_url": "https://cdn.simpleicons.org/heroku/430098",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -207,7 +207,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 60,
     "url": "https://render.com/docs/students",
     "logo_url": "https://cdn.simpleicons.org/render/000000",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "flagged"
   },
   {
@@ -218,7 +218,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 120,
     "url": "https://supabase.com",
     "logo_url": "https://cdn.simpleicons.org/supabase/3ECF8E",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -229,7 +229,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 144,
     "url": "https://www.figma.com/education/",
     "logo_url": "https://cdn.simpleicons.org/figma/F24E1E",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -240,7 +240,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 120,
     "url": "https://www.canva.com/education/",
     "logo_url": "https://cdn.simpleicons.org/canva/00C4CC",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -251,7 +251,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 1985,
     "url": "https://www.autodesk.com/education/edu-software/overview",
     "logo_url": "https://cdn.simpleicons.org/autodesk/0696D7",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -262,7 +262,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 180,
     "url": "https://www.framer.com/education/",
     "logo_url": "https://cdn.simpleicons.org/framer/0055FF",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -273,7 +273,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 96,
     "url": "https://www.notion.so/students",
     "logo_url": "https://cdn.simpleicons.org/notion/000000",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -284,7 +284,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 36,
     "url": "https://1password.com",
     "logo_url": "https://cdn.simpleicons.org/1password/0094F5",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -295,7 +295,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 192,
     "url": "https://miro.com/education/",
     "logo_url": "https://cdn.simpleicons.org/miro/050038",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -306,7 +306,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 48,
     "url": "https://todoist.com/education",
     "logo_url": "https://cdn.simpleicons.org/todoist/E44332",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "flagged"
   },
   {
@@ -317,7 +317,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 60,
     "url": "https://sentry.io/for/education/",
     "logo_url": "https://cdn.simpleicons.org/sentry/362D59",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -328,7 +328,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 25,
     "url": "https://nc.me",
     "logo_url": "https://cdn.simpleicons.org/namecheap/DE3723",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -339,7 +339,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 30,
     "url": "https://www.name.com/github-students",
     "logo_url": "https://cdn.simpleicons.org/namecom/1F60B8",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -350,7 +350,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 234,
     "url": "https://frontendmasters.com/welcome/github-student-pack/",
     "logo_url": "https://cdn.simpleicons.org/frontendmasters/C02D2F",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "flagged"
   },
   {
@@ -361,7 +361,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 120,
     "url": "https://www.educative.io/github-students",
     "logo_url": "https://cdn.simpleicons.org/educative/2C64E3",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "verified"
   },
   {
@@ -372,7 +372,7 @@ export const initialPerks: PerkProps[] = [
     "benefit_value": 180,
     "url": "https://www.datadoghq.com/community/academic/",
     "logo_url": "https://cdn.simpleicons.org/datadog/632CA6",
-    "last_verified_date": "2026-09-02T03:50:50.644Z",
+    "last_verified_date": "2026-09-03T03:49:54.047Z",
     "status": "flagged"
   }
 ];
