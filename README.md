@@ -13,6 +13,7 @@
 
 ## 🌟 Overview
 
+<!-- Pull Shark Trigger -->
 **Student Stack** is a cutting-edge web application designed to bridge the gap between students and top-tier developer tools. It offers a curated directory of premium software, APIs, and cloud subscriptions (such as the GitHub Student Developer Pack, JetBrains IDEs, AWS Credits, and Figma) completely free for verified students. 
 
 The platform is engineered to deliver a blazing-fast, ultra-premium user experience with state-of-the-art WebGL shaders, smooth micro-interactions, and real-time automated verification simulation.
